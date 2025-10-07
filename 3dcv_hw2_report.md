@@ -202,3 +202,10 @@ https://youtu.be/jMiddKHw3Gg
 I've also uploaded the video output for Q2-2, since I notice when I was recording, my computer is pretty lagged, so it cause the video being played also lagged. But I played it after recording then it's pretty smooth:
 
 https://youtube.com/shorts/5e5BSNW4B3I
+
+
+#### Appendix
+Thanks for 簡晟琪 for telling me about the paper P3P made easy.
+
+I've used chatGpt-5 for helping me doing this homework.
+I've used it to generate the overall structure of the code, then I will fix the bugs it created and also re-write some of it to make it matches the requirements of the homework.
