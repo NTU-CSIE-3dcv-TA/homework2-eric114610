@@ -5,6 +5,8 @@ title: 3dcv hw2
 
 # 3dcv hw2
 ## How to run:
+**YOU WILL FIRST NEED TO PUT THE DATA UNDER ./data**
+
 please install following package:
 ```
 python
@@ -104,7 +106,7 @@ Then for each camera location, create pyramid by defining base and apex as:
 ![image](https://hackmd.io/_uploads/Hkc1epl6ex.png)
 Then apply transform using already competed Camera2World_Transform_Matrixs and get world coordinates for the pyramid and draw it as lineset.
 
-For creating trajectory line, just use the last column's first 3 value as world coordinates for each Camera2World_Transform_Matrixs as points for each camera position. Then connect points from one to the next.
+For creating trajectory line for each camera location, just use the last column's first 3 value as world coordinates for each corresponding Camera2World_Transform_Matrixs. Then connect points from one to the next.
 
 Finally, since the point cloud are reconstructed using colmap I suppose? The scene is upside down and a little bit tilt. So I transform it to make it look normal.
 
